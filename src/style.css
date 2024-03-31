@@ -1,0 +1,49 @@
+.slideshow {
+  position: relative;
+  margin: 20px auto;
+  width: 50vw;
+}
+
+.bullet-navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.bullet {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #a9a9a9;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.bullet.active {
+  background-color: skyblue;
+}
+
+.navigation {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-100%);
+  font-size: 48px;
+  padding: 0px 8px;
+  cursor: pointer;
+}
+
+.navigation:hover {
+  background-color: #a9a9a9;
+  border-radius: 50%;
+}
+
+.navigation:active {
+  background-color: #808080;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev {
+  left: 10px;
+}
